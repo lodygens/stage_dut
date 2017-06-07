@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Accès à l'application</title>
+    </head>
+
+    <body onLoad="setTimeout('redirection()', 2578)">
+        <h1>Communication avec XtremWeb</h1>
+        
+        <br/>
+        <h4>Connexion vérifiée, vous allez être redirigé vers l'application.</h4>
+        
+		<script language="JavaScript"> 
+			var cookie = document.cookie;
+			console.log(cookie);
+		</script>       
+        <script language="JavaScript">
+        function redirection(){
+			document.location.href="http://localhost/maxime/php/php-jwt-example-master/test.php"
+			}
+		</script>
+		
+    </body>
+
+</html>
