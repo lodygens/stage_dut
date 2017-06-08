@@ -14,7 +14,7 @@
     $sIndexColumn = "uid";
      
     /* Database connection information */
-    $gaSql['user']       = "xwhep";
+    $gaSql['user']       = "root";
     $gaSql['password']   = "";
     $gaSql['dbname']     = "xtremweb";
     $gaSql['server']     = "127.0.0.1";
