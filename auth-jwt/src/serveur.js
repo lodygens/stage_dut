@@ -28,7 +28,7 @@ app.post('/access', function(req, res){
 		var token= jwt.sign({ id : 'toto', name : 'yolo', date : 'tomorrow' }, mySecret);
 		console.log(token);
 		res.cookie('token',token);
-		res.sendFile("./access.php", {root: __dirname });
+		res.sendFile("./access.html", {root: __dirname });
 		
 	}
 	

@@ -10,5 +10,7 @@
 	
 ## Use
 	Open a terminal in "src",
+        Execute "npm install"
+        Execute "npm run-script build"
 	Do "node serveur.js",
 	Open "localhost:8080" in any web browser
